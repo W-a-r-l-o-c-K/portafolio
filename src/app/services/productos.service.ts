@@ -25,9 +25,9 @@ export class ProductosService {
 
       console.log(this.productos);
 
-      setTimeout(() => {
+      // setTimeout(() => {
         this.cargando = false;
-      }, 500);
+      // }, 500);
 
     });
     }
