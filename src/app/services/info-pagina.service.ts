@@ -27,7 +27,6 @@ export class InfoPaginaService {
     // } ,error => {
     //   console.log(error);
     // });
-
    }
 
    private cargarInfo() {
@@ -44,7 +43,7 @@ export class InfoPaginaService {
      this.http.get("https://angular-html-4a7fd-default-rtdb.europe-west1.firebasedatabase.app/equipo.json").subscribe((data: any) => {
 
       this.equipo =data;
-      console.log(this.equipo);
+      // console.log(this.equipo);
     },error => {
       console.log(error);
     })
